@@ -1,46 +1,91 @@
-# 📩 SMS Spam Detection using Machine Learning
+📩 SMS Spam Detection using Machine Learning
 
-## 📌 Project Overview
-This project implements an end-to-end Machine Learning system to classify SMS messages as **Spam** or **Ham** using Natural Language Processing (NLP).
+A complete end‑to‑end Machine Learning project that detects whether an SMS message is Spam or Ham (Not Spam). The project includes data analysis, model training, and two user interfaces:
 
-## 🎯 Objective
-To build an automated spam detection model using real-world data and deploy it as a web application.
+🌐 Flask Web App
 
-## 📂 Dataset
-- Source: Kaggle (SMS Spam Collection Dataset)
-- Total Records: 5,572
-- Features:
-  - Category (spam / ham)
-  - Message (SMS text)
+📊 Streamlit App
 
-## 🔧 Tech Stack
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- TF-IDF Vectorizer
-- Naive Bayes Classifier
-- Matplotlib (EDA)
-- Streamlit & Flask (Deployment)
+This project is beginner‑friendly and suitable for Data Analyst / ML Fresher portfolios.
 
-## ⚙️ Workflow
-1. Data Collection
-2. Data Cleaning & Preprocessing
-3. Exploratory Data Analysis (EDA)
-4. Feature Engineering using TF-IDF
-5. Model Building using Naive Bayes
-6. Pipeline Creation
-7. Model Evaluation
-8. Model Serialization using Pickle
-9. Deployment using Streamlit
+🚀 Project Overview
 
-## 📊 Model Performance
-- Accuracy: ~97%
-- Efficient detection of spam messages
+Spam messages are a common problem in communication systems. This project uses Natural Language Processing (NLP) and Machine Learning algorithms to classify SMS messages as spam or not spam.
 
-## 🚀 Deployment
-The application is deployed using Streamlit and can be run locally using:
-```bash
-streamlit run app.py
+Key Highlights
 
-# OUTPUT:
-link : http://127.0.0.1:5000 
+Text preprocessing using NLP techniques
+
+Machine Learning model training & evaluation
+
+Flask-based web interface
+
+Streamlit interactive dashboard
+
+Ready for GitHub & deployment
+
+🧠 Machine Learning Workflow
+
+Data Collection – SMS spam dataset (CSV)
+
+Data Cleaning & Preprocessing
+
+Lowercasing
+
+Removing punctuation
+
+Stopword removal
+
+Stemming
+
+Feature Extraction
+
+TF‑IDF Vectorization
+
+Model Training
+
+Naive Bayes / Logistic Regression (based on notebook)
+
+Model Evaluation
+
+Accuracy Score
+
+Deployment
+
+Flask Web App
+
+Streamlit App
+
+🛠️ Tech Stack
+
+Python
+
+Pandas, NumPy
+
+Scikit‑learn
+
+NLTK
+
+Flask
+
+Streamlit
+
+🎯 Use Cases
+
+Email & SMS filtering systems
+
+Telecom fraud detection
+
+NLP learning projects
+
+ML portfolio project
+
+📌 Future Enhancements
+
+Deploy on Heroku / Render
+
+Add confidence score
+
+Support for multiple languages
+
+Improve UI & UX
